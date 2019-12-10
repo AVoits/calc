@@ -1,0 +1,37 @@
+@import "../colors";
+
+.calc-button {
+  min-width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  font-size: 22px;
+  line-height: 80px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.calc-button-primary {
+  color: $primary-text;
+  background-color: $primary;
+
+  &:active {
+    background-color: $primary-dark;
+    color: $primary-dark-text;
+  }
+}
+
+.calc-button-secondary {
+  color: $secondary-text;
+  background-color: $secondary;
+
+
+  &:active {
+    background-color: $secondary-dark;
+    color: $secondary-dark-text;
+  }
+}
+
